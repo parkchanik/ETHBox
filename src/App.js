@@ -100,6 +100,9 @@ class App extends Component {
       } 
    
 
+
+
+      
     this.state.web3.eth.getAccounts((error, accounts) => {
         
       if(!error) {
